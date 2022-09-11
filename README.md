@@ -1,8 +1,8 @@
 # WordPress
 
-# This is a repository for my WordPress websites
+This is a repository for my WordPress websites
 
-This project contains two static presentation websites and two webshops made using WordPress 6.0.1. 
+# This project contains two static presentation websites and two webshops made using WordPress 6.0.1. 
 
 You can view websites by following these steps:
 
