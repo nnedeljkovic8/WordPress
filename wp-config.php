@@ -23,11 +23,11 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  */
 // ** MySQL подешавања - Можете добити ове податке од свог домаћина ** //
 /** Име базе података за Вордпрес */
-define( 'DB_NAME', 'nnedeljkovic_portfolio' );
+define( 'DB_NAME', '' );
 /** Корисничко име MySQL базе */
-define( 'DB_USER', 'nnedeljkovic_portfolio' );
+define( 'DB_USER', '' );
 /** Лозинка MySQL базе */
-define( 'DB_PASSWORD', '#U56V$k6g*~E' );
+define( 'DB_PASSWORD', '' );
 /** MySQL домаћин */
 define( 'DB_HOST', 'localhost' );
 /** Скуп знакова за коришћење у прављењу табела базе. */
