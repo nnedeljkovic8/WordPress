@@ -1,0 +1,51 @@
+2022-08-14T18:06:02+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int * string in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php:153
+Stack trace:
+#0 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php(20): Archive_Products_Render->parse_query_args()
+#1 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/addons/wb_archive_product.php(945): Archive_Products_Render->__construct(Array)
+#2 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Woolentor_Wb_Archive_Product_Widget->render()
+#3 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/base/document.php(284): Elementor\Widget_Base->render_content()
+#5 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/managers/widgets.php(426): Elementor\Core\Base\Document->render_element(Array)
+#6 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#9 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 /home/nnedeljkovic/public_html/digitel/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#11 /home/nnedeljkovic/public_html/digitel/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#12 {main}
+  thrown in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php on line 153
+
+2022-08-14T19:05:19+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int * string in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php:153
+Stack trace:
+#0 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php(20): Archive_Products_Render->parse_query_args()
+#1 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/addons/wb_archive_product.php(945): Archive_Products_Render->__construct(Array)
+#2 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Woolentor_Wb_Archive_Product_Widget->render()
+#3 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/base/document.php(284): Elementor\Widget_Base->render_content()
+#5 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/managers/widgets.php(426): Elementor\Core\Base\Document->render_element(Array)
+#6 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#9 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 /home/nnedeljkovic/public_html/digitel/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#11 /home/nnedeljkovic/public_html/digitel/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#12 {main}
+  thrown in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php on line 153
+
+2022-08-14T20:09:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int * string in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php:153
+Stack trace:
+#0 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php(20): Archive_Products_Render->parse_query_args()
+#1 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/addons/wb_archive_product.php(945): Archive_Products_Render->__construct(Array)
+#2 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/controls-stack.php(2223): Elementor\Woolentor_Wb_Archive_Product_Widget->render()
+#3 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/base/widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#4 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/base/document.php(284): Elementor\Widget_Base->render_content()
+#5 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/includes/managers/widgets.php(426): Elementor\Core\Base\Document->render_element(Array)
+#6 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home/nnedeljkovic/public_html/digitel/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#8 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#9 /home/nnedeljkovic/public_html/digitel/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#10 /home/nnedeljkovic/public_html/digitel/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#11 /home/nnedeljkovic/public_html/digitel/wp-admin/admin-ajax.php(187): do_action('wp_ajax_element...')
+#12 {main}
+  thrown in /home/nnedeljkovic/public_html/digitel/wp-content/plugins/woolentor-addons/includes/archive_product_render.php on line 153
+
