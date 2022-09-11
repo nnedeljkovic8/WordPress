@@ -19,13 +19,13 @@
 
 // ** MySQL подешавања - Можете добити ове податке од свог домаћина ** //
 /** Име базе података за Вордпрес */
-define( 'DB_NAME', 'nnedeljkovic_romann' );
+define( 'DB_NAME', '' );
 
 /** Корисничко име MySQL базе */
-define( 'DB_USER', 'nnedeljkovic_romann' );
+define( 'DB_USER', '' );
 
 /** Лозинка MySQL базе */
-define( 'DB_PASSWORD', '9F=tV)3amUw3' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL домаћин */
 define( 'DB_HOST', 'localhost' );
